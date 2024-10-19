@@ -11,7 +11,7 @@ public class DataService : ISprint2Task1V13
         res[1] = (a + 1000 > b) & (c < d + 100);
         res[2] = (a > b) || (c < b);
         res[3] = (a + 2000 > b) && (c < d + 300);
-        res[4] = !(!res[0]); 
+        res[4] = !(!res[0]);   
         res[5] = (a > b) ^ (c < d);
         return res;
 
