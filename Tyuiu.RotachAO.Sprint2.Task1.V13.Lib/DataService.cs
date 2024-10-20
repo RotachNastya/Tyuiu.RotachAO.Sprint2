@@ -4,6 +4,11 @@ namespace Tyuiu.RotachAO.Sprint2.Task1.V13.Lib;
 
 public class DataService : ISprint2Task1V13
 {
+    public bool CheckDotInShadedArea(int x, int y)
+    {
+        throw new NotImplementedException();
+    }
+
     public bool[] GetLogicOperations(int a, int b, int c, int d)
     {
         bool[] res = new bool[6];

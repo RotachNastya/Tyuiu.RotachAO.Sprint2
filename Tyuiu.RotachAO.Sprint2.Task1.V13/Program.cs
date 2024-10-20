@@ -6,13 +6,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        DataService ds = new DataService();  
-        int a = 145;
-        int b = 916;
-        int c = 164;
-        int d = 137;
-        bool[] res = new bool[6];
-        res = ds.GetLogicOperations(a, b, c, d);
         Console.Title = "Спринт #2 | Выполнил: Ротач. А. О. | ИИПб-24-1";
         Console.WriteLine("************************************************************************");
         Console.WriteLine("* Спринт #2                                                            *");
@@ -26,12 +19,16 @@ class Program
         Console.WriteLine("************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                     *");
         Console.WriteLine("************************************************************************");
-        Console.WriteLine("************************************************************************");
-        for (int i = 0; i < 6; i++)
-        {
-            Console.WriteLine(res[i]);
-        }
-        Console.ReadKey();
-    }
 
-} 
+        Console.WriteLine("Введите переменную X:");
+        int x = int.Parse(Console.ReadLine()!);
+        Console.WriteLine("Введите переменную Y:");
+        int y = int.Parse(Console.ReadLine()!);
+
+        Console.WriteLine("************************************************************************");
+        Console.WriteLine("* РЕЗУЛЬТАТ:                                                           *");
+        Console.WriteLine("************************************************************************");
+
+        Console.WriteLine($"Ответ = ");
+    }
+}
