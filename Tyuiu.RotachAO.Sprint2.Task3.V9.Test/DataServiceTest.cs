@@ -25,7 +25,7 @@ public class DataServiceTest
     }
 
     public void ValidCondition3()
-    {
+    { 
         DataService ds = new DataService();
         double x = -14;
         double res = ds.Calculate(x);

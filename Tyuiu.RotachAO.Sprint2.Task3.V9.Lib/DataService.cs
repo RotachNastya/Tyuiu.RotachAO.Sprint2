@@ -30,7 +30,7 @@ public class DataService : ISprint2Task3V9
                     if (x < -13)
                     {
                         y = 10 * x + (1 / x);
-                    }
+                    } 
                 }
             }
         }
