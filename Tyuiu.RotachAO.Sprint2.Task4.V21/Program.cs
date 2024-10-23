@@ -1,6 +1,6 @@
 using Tyuiu.RotachAO.Sprint2.Task4.V21.Lib; 
  
-namespace Tyuiu.BarbashinAV.Sprint2.Task4.V21; 
+namespace Tyuiu.RotachAO.Sprint2.Task4.V21; 
  
 class Program 
 { 
